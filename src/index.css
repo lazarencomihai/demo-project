@@ -21,6 +21,11 @@ code {
     monospace;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #root {
   display: flex;
+  flex-direction: column;
 }
