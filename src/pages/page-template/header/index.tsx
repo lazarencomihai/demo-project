@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
-import Icon from "../../common/icon";
-import SearchInput from "../../common/search-input";
+import Icon from "../../../components/icon";
+import SearchInput from "../../../components/search-input";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../store/rootReducer";
 import { setSearchField } from "../../../store/slices/headerSlice";

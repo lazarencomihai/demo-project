@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import styled from "@emotion/styled/macro";
-import Icon from "../../../common/icon";
-import { IconName } from "../../../common/icon/types";
+import Icon from "../../../../components/icon";
+import { IconName } from "../../../../components/icon/types";
 import { useHistory, NavLink } from "react-router-dom";
 
 const StyledWrapper = styled.div`

@@ -1,10 +1,13 @@
 import React from "react";
-import PageTemplate from "./components/page-template";
+import {Switch, Route,}
+import PageTemplate from "./pages/page-template";
 
 function App() {
   return (
     <>
-      <PageTemplate></PageTemplate>
+      <PageTemplate>
+          <Switch/>
+      </PageTemplate>
     </>
   );
 }

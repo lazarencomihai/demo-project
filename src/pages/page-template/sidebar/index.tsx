@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import SidebarLink from "./sidebar-link";
-import { IconName } from "../../common/icon/types";
+import { IconName } from "../../../components/icon/types";
 import { Routes } from "../../../constants/routes";
 
 const StyledWrapper = styled.aside`

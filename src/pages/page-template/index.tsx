@@ -7,12 +7,16 @@ const StyledMain = styled.main`
   display: flex;
 `;
 
+const StyledContent = styled.section`
+  background-color: #f2f2f2;
+`;
+
 const PageTemplate: FunctionComponent = ({ children }) => {
   return (
     <>
       <Header />
       <StyledMain>
-        <Sidebar /> <section className="content">{children}</section>
+        <Sidebar /> <StyledContent>{children}</StyledContent>
       </StyledMain>
     </>
   );
