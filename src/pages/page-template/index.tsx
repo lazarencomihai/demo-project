@@ -5,9 +5,12 @@ import styled from "@emotion/styled";
 
 const StyledMain = styled.main`
   display: flex;
+  width: 100%;
+  height: 100%;
 `;
 
 const StyledContent = styled.section`
+  width: 100%;
   background-color: #f2f2f2;
 `;
 

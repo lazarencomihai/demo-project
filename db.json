@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Speed reading: How to",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium tortor nec gravida mollis. Duis ligula nisl, congue vitae ultricies eget, ultrices ac urna. Nunc mollis rutrum odio a porttitor. Mauris et auctor risus. Praesent ut nunc et diam convallis blandit sed vel turpis. Integer a tincidunt arcu. Donec porttitor dolor tincidunt nisi finibus lobortis. Aenean facilisis commodo convallis. Nullam convallis ultricies sem in finibus. Vestibulum tristique, ante vel euismod placerat, tellus enim sollicitudin nibh, a sagittis ante magna quis sem. Sed consectetur magna imperdiet, porttitor odio vitae, bibendum tellus.",
+      "status": "Published",
+      "coverImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/1200px-Shaqi_jrvej.jpg",
+      "creationDate": "Yesterday"
+    },
+    {
+      "id": 2,
+      "title": "Speed reading: How to",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium tortor nec gravida mollis. Duis ligula nisl, congue vitae ultricies eget, ultrices ac urna. Nunc mollis rutrum odio a porttitor. Mauris et auctor risus. Praesent ut nunc et diam convallis blandit sed vel turpis. Integer a tincidunt arcu. Donec porttitor dolor tincidunt nisi finibus lobortis. Aenean facilisis commodo convallis. Nullam convallis ultricies sem in finibus. Vestibulum tristique, ante vel euismod placerat, tellus enim sollicitudin nibh, a sagittis ante magna quis sem. Sed consectetur magna imperdiet, porttitor odio vitae, bibendum tellus.",
+      "status": "Draft",
+      "coverImg": "https://www.gulftoday.ae/-/media/gulf-today/images/articles/lifestyle/2019/4/15/nature.ashx?h=450&w=750&hash=A5F93BBB4FC839BB2A620535F62AB7F9",
+      "creationDate": "Yesterday"
+    },
+    {
+      "id": 3,
+      "title": "Speed reading: How to",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium tortor nec gravida mollis. Duis ligula nisl, congue vitae ultricies eget, ultrices ac urna. Nunc mollis rutrum odio a porttitor. Mauris et auctor risus. Praesent ut nunc et diam convallis blandit sed vel turpis. Integer a tincidunt arcu. Donec porttitor dolor tincidunt nisi finibus lobortis. Aenean facilisis commodo convallis. Nullam convallis ultricies sem in finibus. Vestibulum tristique, ante vel euismod placerat, tellus enim sollicitudin nibh, a sagittis ante magna quis sem. Sed consectetur magna imperdiet, porttitor odio vitae, bibendum tellus.",
+      "status": "Archived",
+      "coverImg": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg",
+      "creationDate": "Yesterday"
+    },
+    {
+      "id": 4,
+      "title": "Speed reading: How to",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium tortor nec gravida mollis. Duis ligula nisl, congue vitae ultricies eget, ultrices ac urna. Nunc mollis rutrum odio a porttitor. Mauris et auctor risus. Praesent ut nunc et diam convallis blandit sed vel turpis. Integer a tincidunt arcu. Donec porttitor dolor tincidunt nisi finibus lobortis. Aenean facilisis commodo convallis. Nullam convallis ultricies sem in finibus. Vestibulum tristique, ante vel euismod placerat, tellus enim sollicitudin nibh, a sagittis ante magna quis sem. Sed consectetur magna imperdiet, porttitor odio vitae, bibendum tellus.",
+      "status": "Deleted",
+      "coverImg": "https://post.greatist.com/wp-content/uploads/sites/3/2020/02/325466_1100-1100x628.jpg",
+      "creationDate": "Yesterday"
+    }
+  ],
+  "states": [
+    "draft",
+    "archived",
+    "published",
+    "deleted"
+  ],
+  "transitions": [
+    {
+      "from": "draft",
+      "to": "archived"
+    },
+    {
+      "from": "draft",
+      "to": "published"
+    },
+    {
+      "from": "publish",
+      "to": "draft"
+    },
+    {
+      "from": "archive",
+      "to": "draft"
+    },
+    {
+      "from": "deleted",
+      "to": "archived"
+    }
+  ]
+}
