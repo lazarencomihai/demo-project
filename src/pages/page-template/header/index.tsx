@@ -13,7 +13,7 @@ const StyledWrapper = styled.header`
   min-height: 64px;
   padding: 16px 63px 14px 32px;
   background-color: white;
-  box-shadow: 0px 2px 20px 4px rgba(41, 55, 74, 0.08);
+  box-shadow: 0 2px 20px 4px rgba(41, 55, 74, 0.08);
 `;
 
 const Header = () => {
@@ -21,7 +21,7 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const handleChange = (newValue: string) => {
-    dispatch(setSearchField({ value: newValue }));
+    dispatch(setSearchField(newValue));
   };
 
   return (

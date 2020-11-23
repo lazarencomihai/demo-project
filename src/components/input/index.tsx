@@ -16,6 +16,7 @@ const StyledInput = styled.input`
     line-height: 20px;
     padding-left: 3px;
     text-transform: capitalize;
+    color: #8a9aa8;
   }
 `;
 

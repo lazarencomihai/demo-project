@@ -34,7 +34,7 @@ interface IconProps {
 
 const Icon: FunctionComponent<IconProps> = ({
   name,
-  size,
+  size = 32,
   color,
   className,
 }) => {

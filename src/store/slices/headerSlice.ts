@@ -8,9 +8,8 @@ const headerSlice = createSlice({
   name: "header",
   initialState,
   reducers: {
-    setSearchField(state, action: PayloadAction<{ value: string }>) {
-      const { value } = action.payload;
-      state.searchField = value;
+    setSearchField(state, action: PayloadAction<string>) {
+      state.searchField = action.payload;
     },
   },
 });

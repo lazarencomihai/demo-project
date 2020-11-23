@@ -10,7 +10,7 @@ const StyledMain = styled.main`
 `;
 
 const StyledContent = styled.section`
-  width: 100%;
+  width: calc(100% - 95px);
   background-color: #f2f2f2;
 `;
 

@@ -34,7 +34,7 @@ const SearchInput: FunctionComponent<SearchInputProps> = ({
         placeholder={placeholder}
         onChange={onChange}
       />
-      <StyledIcon name="search" color="#979797" />
+      <StyledIcon name="search" size={24} color="#979797" />
     </StyledWrapper>
   );
 };

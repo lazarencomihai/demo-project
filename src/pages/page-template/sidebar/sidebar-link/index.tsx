@@ -3,6 +3,7 @@ import styled from "@emotion/styled/macro";
 import Icon from "../../../../components/icon";
 import { IconName } from "../../../../components/icon/types";
 import { useHistory, NavLink } from "react-router-dom";
+import { colors } from "../../../../styles/colors";
 
 const StyledWrapper = styled.div`
   width: 100%;
@@ -17,10 +18,12 @@ const StyledWrapper = styled.div`
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
+  transition: 0.2s ease-in;
+  will-change: background-color;
 
   &:hover,
   &:focus {
-    background-color: #dadbdc7a;
+    background-color: ${colors.hoverBackground};
   }
 
   &:first-child {
