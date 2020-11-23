@@ -13,7 +13,6 @@ import Spinner from "../../components/spinner";
 import Filter from "../../components/filter";
 import { useHistory } from "react-router-dom";
 import { Routes } from "../../constants/routes";
-import CustomCard from "../../components/card/custom";
 import AddCourseCard from "./add-course/card";
 
 const StyledWrapper = styled.section`
@@ -66,6 +65,7 @@ const CoursesPage = () => {
     return () => {
       dispatch(clearCourses());
     };
+    // eslint-disable-next-line
   }, []);
 
   const handleCardClick = (id: string | number) => {

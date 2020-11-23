@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from "react";
 import { StyledWrapper } from "../styles";
-import Icon from "../../icon";
 import styled from "@emotion/styled";
 
 const StyledEmptyCardContainer = styled.div`

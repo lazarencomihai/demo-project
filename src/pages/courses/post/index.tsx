@@ -42,6 +42,7 @@ const CoursePost = (routerProps: any) => {
     return () => {
       dispatch(clearCurrentCourse());
     };
+    // eslint-disable-next-line
   }, []);
 
   if (!currentCourse || showSpinner) {
